@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributo Value</title>
+</head>
+<body>
+    
+    <FORM ACTION="email@email.com" METHOD="get">    
+		<P><FONT FACE="CALIBRI">Nome: <INPUT TYPE=text NAME="nome" SIZE="25" MAXLENGHT="50"></P>
+		<P>Nº do cartão de crédito <INPUT TYPE=text NAME="nun_cartao"  SIZE="16"></P>
+		<P>Senha: <INPUT TYPE=password NAME="senha" SIZE="6"></P>
+		<P>Selecione a bandeira do cartão de crédito:<BR>
+    <!--para adicionar um radio em um formulario,é usado o valor radio no atributo type da tag input
+         <input type="radio" name="variavel">
+    -->        
+    <!--para exibir uma das opções selecionadas como padrão, usamos checked na tag <input>
+        <input type="radio" name="variavel"checked>valor
+    -->        
+        <INPUT TYPE=radio NAME="selecao-cartao" CHECKED>VISA <BR>
+        <INPUT TYPE=radio NAME="selecao-cartao">MASTERCARD
+        </P>
+	</FORM>
+</body>
+</html>

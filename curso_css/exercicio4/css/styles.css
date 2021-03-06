@@ -1,0 +1,14 @@
+/* Css doument*/
+
+/* Para caixa alta(tudo maiúsculo)*/
+.uppercase{
+    text-transform: uppercase;
+}
+/* Para caixa baixa(tudo minúsculo)*/
+.lowercase{
+    text-transform: lowercase;
+}
+/* Para caixa alta(primeira letra das palavras em caixa alta)*/
+.capitalize{
+    text-transform: capitalize;
+}

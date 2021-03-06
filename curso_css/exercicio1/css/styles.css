@@ -1,0 +1,13 @@
+/*css document */
+body{
+    background-color: pink;
+}/* cor de fundo rosa*/
+h1{
+    font-size: 20px;
+}/* tamanho da letra*/
+h2{
+    color: red;
+}/* cor da letra*/
+p{
+    margin-left: 50px;
+}/* tamanho da margem a esquerda*/

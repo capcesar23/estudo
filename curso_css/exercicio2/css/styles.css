@@ -1,0 +1,27 @@
+/* Css doument*/
+body{
+    background-color: tan;
+}/* cor de fundo*/
+h1{
+    color: maroon;
+}/* cor do h1 marron*/
+hr{
+    color: navy;
+}/* cor do hr azul*/
+p{
+    font-size: 16px;/* tamanho da fonte em 16 pixels*/
+    margin-left: 20px;/* margem a esquerda com 20 pixels*/
+}
+/* regras para estilizar link seguem a norma LVHA: :link, :visited, :hover,,:active */
+a:link{
+    color: green;
+}/* cor do link verde, para link não visitado*/
+a:visited{
+    color: yellow;
+}/* após clicado muda para cor amarela, para link que foi visitado*/
+a:hover{
+    color: black;
+}/* quando posiciona o mouse em cima muda para cor preta use hovers*/
+a:active{
+    color: blue;
+}/* links ativos, deve ser usado depois de todas as regras relacionadas a links*/

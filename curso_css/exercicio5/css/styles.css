@@ -1,0 +1,17 @@
+/* Css doument*/
+/* Especificar o recuo da primeira linha do texto*/
+p{
+    text-indent: 50px;
+}
+/* Para caixa alta(tudo maiúsculo)*/
+.uppercase{
+    text-transform: uppercase;
+}
+/* Para caixa baixa(tudo minúsculo)*/
+.lowercase{
+    text-transform: lowercase;
+}
+/* Para caixa alta(primeira letra das palavras em caixa alta)*/
+.capitalize{
+    text-transform: capitalize;
+}

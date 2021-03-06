@@ -1,0 +1,13 @@
+/* Css doument*/
+.circle li{
+    list-style-type: circle;
+}
+.square li{
+    list-style-type: square;
+}
+.upper-roman{
+    list-style-type: circle;
+}
+.lower-alpha{
+    list-style-type: lower-alpha;
+}

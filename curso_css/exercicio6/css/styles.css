@@ -1,0 +1,17 @@
+/* Css doument*/
+/* Especificar o recuo da primeira linha do texto*/
+p{
+    text-indent: 50px;
+}
+/* texto aparece normal*/
+.normal{
+    font-style: normal;
+}
+/* texto em itálico*/
+.italic{
+    font-style: italic;
+}
+/* texto inclinado que é similar ao italic, mas um pouco menos inclinado*/
+.oblique{
+    font-style: oblique;
+}

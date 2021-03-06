@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}/*inicia todos os elementos com margin 0 e padding 0 */
+
+.container-principal{
+    font-family: 'verdana';
+    color: #777;
+} /* estamos definido a fonte da letra e cor da class container-principal*/
+
+/* definir as propriedades do topo*/
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+    top: o;
+}/*width(largura), height(altura), background-color(cor de fundo),position,top*/
+/*definir as propriedades do logo*/
+.logo{
+    position: absolute;
+    width: 300px;
+    height: auto;
+}
+.logo img{
+    width: 90%;
+    margin-left: 10%;
+}
+/*definir as propiedades do menu nav*/
+nav{
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+nav ul li{
+    float: left;/*força a lista ir para a esquerda*/
+    color: #fff;
+    width: auto;
+    margin: 0.8em;/*utilizamos aqui para separar os itens*/
+    font-size: 1.5em;/*adequar a fonte ao tamanho da tela*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #bbb;
+}
+nav ul li a :hover {/*quando o usuário passar o mouse em cima troca a cor da letra*/
+    color: #b13030;    
+}
+/*definir as propriedadesda imagem principal*/
+#banner{
+    width: 100%;
+}
+#banner img{
+    width: 100%;
+    margin-bottom: 0;
+}
+/*definir as propriedades dos pop'ups*/
+.modalDialog div {
+    width: 500px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;/*definir as propriedades do padding  top 5px  rigth 10px bottom 13px  left 20px*/
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 10px;/*permite que as exttremidades do elemento sejam arrendodas de acordo com o valor atribuido a elas*/
+    background-color: #fff;
+   
+}
+.modalDialog p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.modalDialog img {
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+}
+.close {
+    background-color: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
+.close:hover {
+    background-color: #b50909;
+}
+footer{
+    width: 100%; 
+    height: 18%;
+    background-color: #b50909; 
+    color: #fff; 
+    position: relative;
+    float: left; 
+    font-family: 'verdana';
+    width: 100%;
+    height: 18%;
+    background-color: #b50909;
+    color: #fff;
+    position: relative;
+    float: left;
+    font-family:'verdana';
+}
+/* definir as propriedades do footer(rodapé)*/
+footer{
+    width: 100%;
+    height: 18%;
+    background-color: #b50909;
+    color: #fff;
+    position: relative;
+    float:left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer .footer-text{
+    width: 30%;
+    margin: 1%;
+    position: relative;
+    float: left;
+}
+footer .footer-text a{
+    color: #fff;
+}
